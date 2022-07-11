@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style10.css">
+      <title>Document</title>
+  </head>
+  <body>
+      <h1>Exercicio 10</h1>
+          <div class="container">
+          <form id="form">
+              <div class="form-group">
+                  <label>Marca do Carro:
+                      <input type="text" id="input-marca" class="form-control" required>
+                  </label>
+              </div>
+              <div class="form-group">
+                <label>Modelo do Carro:
+                    <input type="text" id="input-modelo" class="form-control" required>
+                </label>
+            </div>
+              <div class="form-group">
+                  <label>Ano:
+                      <input type="number" id="input-ano" class="form-control" placeholder="Digite ano do carro" title="Campo nome é obrigatorio" required >
+                  </label>
+              </div>
+              <div class="form-group">
+                <label>Cor do Carro:
+                    <input type="text" id="input-cor" class="form-control" required>
+                </label>
+            </div>
+              <button id="btn-submit" type="submit" class="btn btn-primary">Adicionar</button>
+              <div id="erros"></div>           
+          </form>
+      </div>
+      
+      <div class="container">
+          <ul id="lista-registro" class="list-group">
+          </ul>
+          <div id="comparacoes"></div>
+      </div>
+      <script src="script10.js"></script>
+  </body>
+  </html>
+
